@@ -9,7 +9,6 @@ body {
     background-repeat: no-repeat;
     width: 1920px;
     height: 873px;
-
 }
 
 .container {
@@ -252,8 +251,7 @@ body {
 #ourCustomerTitle {
     text-align: center;
     font-size: 48px;
-    padding-top: 50px;
-    
+    padding-top: 50px;   
 }
 
 .image-customer {
@@ -376,5 +374,4 @@ footer {
 
 .contact img {
     margin-right: 38px;
-
 }
