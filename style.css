@@ -29,7 +29,7 @@ body {
 }
 
 .about-us {
-	padding: 10px 0px 10px 16px;
+	padding: 10px 0 10px 16px;
     margin-right: 38px;
 }
 
@@ -115,6 +115,9 @@ body {
 	margin-right: 19px;
 }
 
+.title img {
+    padding-top: 15px;
+}
 .title h3 {
 	font-size: 48px;
     margin-top: 2px;
@@ -189,8 +192,7 @@ body {
     border: rgba(255, 255, 255, 1) solid 2.5px;	
     border-radius: 100px;
     background: rgba(124, 179, 66, 1);
-    margin-left: 32px;
-    margin-top: -20px;
+    margin: -20px 0 0 32px;
     position: absolute;
     width: 40px;
     height: 40px;
@@ -198,9 +200,7 @@ body {
 
 .number {
 	color: white;
-    margin-right: 10px;
-    margin-left: 48px;
-    margin-top: -10px;
+    margin: -10px 10px 0 48px;
     position: relative;
     font-size: 24px;
     top: -11px;
@@ -227,13 +227,15 @@ body {
 	-webkit-line-clamp: 2;
     overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
     height: 50px;
     padding-left: 10px;
     width: 519px;
     font-family: Roboto;
-    font-weight: lighter;
-    letter-spacing: -0.09px;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: justify;
+
 }
 
 .customers { 
