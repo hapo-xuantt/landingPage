@@ -301,12 +301,12 @@ body {
 	size: 10px;
 }
 
-.finish {
+.note {
 	justify-content: center;
     margin-left: 150px;
 }
 
-.finish p {
+.note p {
 	padding-top: 45px;
     font-size: 18px;
     line-height: 30px;
@@ -318,29 +318,34 @@ body {
     letter-spacing: -0.03px;
 }
 
-#finish1 {
+#note-before {
 	float: left;
 }
-#finish2 {
+
+#note-after {
 	float: right;
     padding-right: 180px;
 }
+
 footer {
 	background-color: rgba(57, 71, 78, 1);
     height: 179px;
     border: rgba(236, 239, 241, 1) solid 1px;
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
 }
+
 .flex-container {
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     color: white;
 }
+
 .col {
 	width: 200px;
     margin-top: 50px;
 }
+
 .col ul {
 	list-style-type: none;
     padding-inline-start: unset;
@@ -350,6 +355,7 @@ footer {
     font-family: Roboto;
     font-weight: 400;
 }
+
 .col-title {
 	color: rgba(139, 195, 74, 1);
     font-size: 24px;
@@ -358,13 +364,16 @@ footer {
     font-weight: 400;
     letter-spacing: -0.03px;
 }
+
 .col a {
 	text-decoration: none;
 	color: white;
 }
+
 .contact {
 	margin-top: 135px;
 }
+
 .contact img {
 	margin-right: 38px;
 
