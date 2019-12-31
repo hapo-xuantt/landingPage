@@ -5,7 +5,7 @@ body {
 
 .banner {
     background-image: url('image/banner.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 1920px;
     height: 873px;
@@ -24,7 +24,8 @@ body {
 }
 
 .menu {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .about-us {
@@ -45,13 +46,12 @@ body {
 
 .multbox {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
-    padding-top: 50px;
+    padding-top: 48px;
 }
 
 .boxes {
-    width: 242px;
     display: inline-grid;
     color: rgba(40, 50, 56, 1);
     font-size: 36px;
@@ -59,7 +59,17 @@ body {
     font-weight: lighter;
 }
 
-.hapoERP p{
+.boxes i {
+    width: 52px;
+    height: 48px;
+}
+
+.boxes span {
+     width: 96px;
+     height: 48px;
+}
+
+.hapoERP p {
     font-size: 18px;
     padding-top: 53px;
     padding-bottom: 34px;
@@ -83,8 +93,9 @@ body {
     font-weight: normal;
 }
 
-.clear {
-    clear: both;
+.flex {
+    display: flex;
+    flex-direction: row;
 }
 
 .today-i-learnt {
@@ -94,30 +105,33 @@ body {
 }
 
 .col-left {
-    width: 555px;
+    width: 600px; 
     height: 371px;
-    float: left;
-    margin-right: 37px;
 }
 
 .col-right {
-    width: 555px;
-    float: left;
-    margin-right: 37px;
+    width: 600px;
+    height: 371px;
 }
 
 .title {
-    display: inline-flex;
+    display: flex;
+    height: 63px;
 }
 
-.title span {
+.title i {
     margin-right: 19px;
+    font-size: 36px;
+    padding-top: 10px;
 }
 
 .title img {
     padding-top: 15px;
+    width: 36px;
+    height: 36px;
+    color: white;
 }
-.title h3 {
+.title span {
     font-size: 48px;
     margin-top: 2px;
     color: rgba(68, 68, 68, 1);
@@ -126,8 +140,23 @@ body {
 }
 
 .col-right p {
-    margin-top: 15px;
     font-size: 14px;
+}
+
+.img-left {
+    margin-right: 30px;
+}
+
+.img-left img {
+    width: 100%;
+}
+
+.img-right {
+    margin-left: 30px;
+}
+
+.img-right img {
+    width: 100%;
 }
 
 .itali {
@@ -146,8 +175,8 @@ body {
     font-weight: normal;
 }
 
-.today-i-learnt button {
-    margin-top: 30px;
+.flex button {
+   margin-top: 30px;
 }
 
 .daily-report {
@@ -163,6 +192,7 @@ body {
 .route-container {
     padding-top: 70px;
     display: flex;
+    justify-content: space-between;
 }
 
 .circle {
@@ -170,14 +200,14 @@ body {
     height: 107px;
     border: rgba(255, 255, 255, 1) solid 2.5px;
     border-radius: 100px;
+    display: flex;
+    justify-content: center;
 }
 
-.route-container img {
-    padding: 40px 40px 40px 40px;
-}
-
-.route-item {
-    margin-right: 170px;
+.circle i {
+    font-size: 36px;
+    color: white;
+    padding-top: 30px;
 }
 
 .route-item p {
@@ -185,31 +215,28 @@ body {
     font-family: Roboto;
     font-weight: normal;
     letter-spacing: 1.33px;
+    color: white;
+    text-align: center;
+}
+
+.route-item span {
+      color: white;
+      font-size: 24px;
+      font-family: Roboto;
+      font-weight: normal;
+      padding-top: 10px;
 }
 
 .small-circle {
+    position: relative;
+    height: 40px;
+    width: 40px;
     border: rgba(255, 255, 255, 1) solid 2.5px; 
     border-radius: 100px;
     background: rgba(124, 179, 66, 1);
-    margin: -20px 0 0 32px;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-}
-
-.number {
-    color: white;
-    margin: -10px 10px 0 48px;
-    position: relative;
-    font-size: 24px;
-    top: -11px;
-}
-
-.route-item p {
-    font-size: 16px;
-    color: white;
-    margin-left: 20px;
-    padding-top: 30px;
+    margin: -20px 0 0 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .members {
@@ -218,8 +245,15 @@ body {
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
 }
 
+.sub-member {
+    display: flex;
+    flex-direction: row;
+}
+
 .sub-member span {
-    float: left;
+    padding-top: 15px;
+    font-size: 18px;
+    color: rgba(139, 175, 74, 1);
 }
 
 .sub-member p {
@@ -228,11 +262,10 @@ body {
     white-space: nowrap;
     height: 50px;
     padding-left: 10px;
-    width: 519px;
     font-family: Roboto;
     font-weight: normal;
     line-height: 24px;
-    font-size: 13px;
+    font-size: 16px;
     text-align: justify;
 }
 
@@ -242,7 +275,7 @@ body {
 }
 
 .our-customer {
-    height: 544px;
+    height: 571px;
     background-image: url("image/rectangle3.png");
     color: white;
     text-align: center;
@@ -300,8 +333,15 @@ body {
 }
 
 .note {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-left: 150px;
+}
+
+.note i {
+    font-size: 72px;
+    opacity: 0.5;
 }
 
 .note p {
@@ -309,20 +349,14 @@ body {
     font-size: 18px;
     line-height: 30px;
     text-align: justify;
-    padding-left: 80px;
     width: 750px;
     font-family: Roboto;
     font-weight: normal;
     letter-spacing: -0.03px;
 }
 
-#note-before {
-    float: left;
-}
-
-#note-after {
-    float: right;
-    padding-right: 180px;
+#note-after { 
+    padding-top: 150px;
 }
 
 footer {
@@ -372,6 +406,6 @@ footer {
     margin-top: 135px;
 }
 
-.contact img {
+.contact i {
     margin-right: 38px;
 }
