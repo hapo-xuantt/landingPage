@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    width: 1240px;
+    width: 1140px;
     margin: 0 auto;
 }
 
@@ -105,12 +105,12 @@ body {
 }
 
 .col-left {
-    width: 600px; 
+    width: 555px; 
     height: 371px;
 }
 
 .col-right {
-    width: 600px;
+    width: 555px;
     height: 371px;
 }
 
@@ -356,7 +356,7 @@ body {
 }
 
 #noteAfter { 
-    padding-top: 150px;
+    padding-top: 114px;
 }
 
 footer {
@@ -374,7 +374,7 @@ footer {
 }
 
 .col {
-    width: 200px;
+    width: 190px;
     margin-top: 50px;
 }
 
@@ -403,9 +403,10 @@ footer {
 }
 
 .contact {
-    margin-top: 135px;
+    margin-top: 85px; 
 }
-
 .contact i {
-    margin-right: 38px;
+    color: rgba(139, 195, 74, 1);
+    margin-right: 28px;
+    font-size: 13px;
 }
