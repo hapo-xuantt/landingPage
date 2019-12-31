@@ -28,15 +28,23 @@ body {
     justify-content: flex-end;
 }
 
+.menu span {
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
 .about-us {
     padding: 10px 0 10px 16px;
     margin-right: 38px;
+    color: rgba(40, 50, 56, 1);
 }
 
 .sign-in {
     border: rgba(139, 195, 74, 1) solid 2px;
     border-radius: 100px;
     padding: 10px 17px 10px 15px;
+    color: rgba(139, 195, 74, 1);
 }
 
 .hapoERP {
